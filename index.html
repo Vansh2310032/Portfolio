@@ -5,29 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 <body>
     <header class="header">
-    <a href="#" class="logo">PORTFOLIO</a>
+    <a href="#" class="logo">Vansh</a>
     <nav class="navbar">
     <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Skills</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#qualifications">Qualifications</a>
+    <a href="#contact">Contact</a>
     </nav>
     </header>
 <section class="home">
     <div class="home-content">
         <h3>Hello, It's ME</h3>
         <h1>VANSH ATREY</h1>
-        <h3>And I'm a</h3><br>
+        <h3>And I'm a <span class="text"></span></h3><br>
         <p>I am a UI/UX Designer with little to no experience.
             <br>My expertise lie in website creation and designing, frontend design and editing.
         </p>
        
         <div>
-            <a href="a" class="home-link">GET IN TOUCH</a>
+            <a href="#contact" class="home-link">GET IN TOUCH</a>
         </div>
         <div class="content-wrapper">
         <img src="home image clean.jpg.png" alt="Home image" class="content-image">
@@ -38,5 +39,127 @@
     <div><a href="a" class="CSS">CSS</a></div>
     
 </section>
+<br><br><br>
+<section class="about" id="about">
+    <h1>About Me</h1>
+    <P>Hello! I’m a passionate UI/UX designer eager to make my mark in the digital world. With a keen eye for aesthetics and a strong understanding of user-centered design principles, I strive to create intuitive and engaging interfaces that enhance user experiences.<br><br>
+
+        In addition to my UI/UX skills, I have a solid background in video editing, allowing me to bring dynamic content to life and create compelling narratives that resonate with audiences. My proficiency in Unreal Engine 5 (UE5) design further enables me to craft immersive environments and interactive experiences, blending creativity with cutting-edge technology.<br><br>
+        
+        I’m dedicated to continuous learning and growth, always seeking new challenges that allow me to expand my skill set and deliver innovative solutions. Whether collaborating on projects or working independently, I approach every task with enthusiasm and a commitment to excellence.
+        
+        Let’s connect and explore how we can create amazing user experiences together!</P>
+        <div>
+            <a href="#contact" class="home-link">GET IN TOUCH</a>
+        </div>
+</section>
+<br><br><br>
+<section class="skills" id="skills">
+    <h1>My Skills and expertise</h1>
+    <div class="skills-container">
+        <div class="skill-box">
+            <img src="figma4.png" alt="Skill 1" class="skill-image"><br><br>
+            <h2>FIGMA</h2>
+            <p>Figma is a collaborative interface design tool that’s taken the design world by storm. Unlike Sketch or Adobe Illustrator, which are standalone applications, Figma can be run entirely from a web browser and, therefore, works not only on Macs but also on PCs running Windows or Linux, and even on Chromebooks. It's also free to use!<br><br>
+
+                Another big advantage of Figma is that it allows real-time collaboration on the same file. When using conventional “offline” apps like Sketch and Illustrator, if designers want to share their work, they typically have to export it to an image file and then send it via email or instant message.<br><br>
+                
+                In Figma, instead of exporting static images, we can simply share a link to the Figma file for clients and colleagues to open in their browsers. This in itself saves significant time and can streamline a designer’s workflow. But more importantly, it means that clients and colleagues can interact more richly with the work and review the latest version of the file.</p>
+        </div>
+        <div class="skill-box">
+            <img src="home image clean.jpg.png" alt="Skill 2" class="skill-image">
+            <h2>WEB DEV</h2>
+            <p>This is one of the fundamental building blocks of the web. HTML, or “HyperText Markup Language,” has been around in some form since roughly 1993, when it was created by physicist Tim Berners-Lee. It’s now in its fifth generation, HTML5.
+                <br>CSS or “Cascading Style Sheets” works with HTML to create the format for web pages. It works on top of the foundation of a page that was created with HTML. It also helps adapt pages to different formats optimized for desktops or mobile devices. The latest standard is CSS3, meaning they are in their third generation.
+                <br>JavaScript, which is often abbreviated to JS, is another front-end programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries like JQuery. Whereas HTML & CSS are used to control presentation, formatting, and layout, JavaScript is used to control the behavior of different web elements. 
+            </p>
+        </div>
+        <div class="skill-box">
+            <img src="ue52.png" alt="Skill 3" class="skill-image">
+            <h2>UNREAL ENGINE</h2>
+            <p>Unreal Engine 5 (UE5) is a cutting-edge real-time 3D creation tool developed by Epic Games, designed to empower developers and artists in various industries, including gaming, film, architecture, and virtual reality. With its advanced capabilities, UE5 enables the creation of stunning, high-fidelity interactive experiences that push the boundaries of what’s possible in digital content. The engine combines powerful tools with a user-friendly interface, making it accessible to both seasoned professionals and newcomers.<br>
+
+                One of the standout features of UE5 is Nanite, a virtualized geometry system that allows artists to use film-quality assets in real-time without compromising performance. This technology enables the rendering of incredibly detailed environments, accommodating complex scenes with millions of polygons. Coupled with Lumen, a fully dynamic global illumination solution, UE5 provides realistic lighting and reflections that react in real-time to changes in the scene, enhancing the overall immersion of the experience.<br>
+                
+               </p>
+        </div>
+    </div>
+</section>
+<br><br><br>
+<section class="qualifications" id="qualifications">
+    <h1>My Qualifications</h1>
+    <div class="qualifications-container">
+        <div class="qualifications-box">
+            <img src="hackerrank.png" alt="Skill 1" class="skill-image">
+            <br><br><br>
+            <h2>HACKERANK</h2>
+            <p>HackerRank is a comprehensive platform that focuses on improving coding skills through interactive challenges and competitions. It offers a diverse range of domains, including algorithms, data structures, artificial intelligence, and database management. Users can practice by solving problems that span various levels of difficulty, from beginner to expert. This extensive variety allows users to tailor their learning experience according to their interests and skill levels.
+
+                One of the standout features of HackerRank is its robust learning environment that provides instant feedback on submissions. Users can see how their solutions compare against others and gain insights into different approaches to problem-solving. Additionally, the platform offers resources such as tutorials and articles that help users deepen their understanding of complex topics. Regular contests and challenges foster a sense of community, encouraging collaboration and learning among peers.
+                
+                For employers, HackerRank serves as an effective tool for technical hiring. Many companies use the platform to create coding assessments and gauge candidates’ abilities in real-time. This alignment between learning and hiring makes HackerRank an invaluable resource for both developers seeking to enhance their skills and organizations looking to identify top talent in a competitive job market.</p>
+        </div>
+        <div class="qualifications-box">
+            <img src="leetcode2.png" alt="Skill 2" class="skill-image">
+            <br><br><br>
+            <h2>LEETCODE</h2>
+            <p>LeetCode is an essential platform for aspiring software engineers, particularly those preparing for technical interviews. With its extensive collection of coding problems, LeetCode focuses primarily on data structures and algorithms, which are crucial for interview success. Users can filter problems based on tags, difficulty levels, and company-specific questions, allowing them to concentrate their practice on relevant topics and improve their chances of acing interviews.
+
+                The platform features a user-friendly interface that supports multiple programming languages, making it accessible to a wide audience. Each problem comes with a discussion forum. This collaborative environment not only enhances learning but also allows users to explore various perspectives and coding styles. Additionally, LeetCode hosts weekly contests that stimulate friendly competition and help users gauge their progress against the broader community.
+                
+                LeetCode also provides valuable resources such as mock interview simulations and curated interview question lists tailored to specific companies. This structured approach to preparation equips users with the skills and confidence needed to succeed in high-stakes interview situations. By fostering a comprehensive learning experience, LeetCode has become a go-to platform for developers aiming to sharpen their technical abilities and land their dream jobs.</p>
+        </div>
+        <div class="qualifications-box">
+            <img src="codeforces.jpg" alt="Skill 3" class="skill-image">
+            <h2>CODEFORCES</h2>
+            <p>Codeforces is a competitive programming platform that brings together coders from around the globe to engage in real-time contests. Known for its challenging problems, Codeforces emphasizes algorithmic thinking and coding proficiency, making it a favorite among competitive programmers. The platform hosts regular contests of varying formats and durations, enabling participants to showcase their skills while competing against peers in a dynamic environment.
+
+                One of the defining aspects of Codeforces is its robust ranking system, which motivates users to improve and climb the ranks. As participants solve problems and compete in contests, they earn ratings that reflect their performance. This gamification element not only encourages consistent practice but also fosters a sense of achievement and community among users. The ability to view past contests and problem sets further enhances the learning experience, allowing users to analyze their performance and refine their strategies.
+                
+                The vibrant community of Codeforces adds an extra layer of engagement, with discussion forums where users can share insights, solutions, and strategies. This collaborative atmosphere. With its focus on competition and continuous improvement, Codeforces serves as an excellent platform for developers looking to hone their skills and challenge themselves in a friendly yet competitive environment.
+                
+                
+                
+                </p>
+        </div>
+    </div>
+</section>
+<br><br><br>
+<section class="contact" id="contact">
+    <div class="contact-text">
+    <h1>Contact <span>Me</span></h1>
+    <br><br>
+    <p>I'm always eager to connect and collaborate on exciting projects! If you're interested in discussing potential opportunities, sharing ideas, or simply want to say hello, feel free to reach out. You can get in touch through email or connect on social media. I look forward to hearing from you and exploring how we can create amazing user experiences together!
+       <br> Contact me through the links provided below and also kindly share your thoughts with the form at the bottom!
+    </p>
+</div>
+<div class="contact-icons">
+    <a href="mailto:your-email@example.com" aria-label="Email" class="icon-box">
+        <img src="email.jpg" alt="Email Icon">
+        <span>Email</span>
+    </a>
+    <a href="https://www.linkedin.com" aria-label="LinkedIn" class="icon-box">
+        <img src="linkedin.png" alt="LinkedIn Icon">
+        <span>LinkedIn</span>
+    </a>
+    <a href="https://twitter.com" aria-label="Twitter" class="icon-box">
+        <img src="twitter.png" alt="Twitter Icon">
+        <span>Twitter</span>
+    </a>
+</div>
+
+</div>
+    <div class="contact-form">
+        <form action="">
+            <input type="" placeholder="Name" required>
+            <input type="email" placeholder="E-mail" required>
+            <input type="" placeholder="Subject">
+            <textarea name="" id="" cols="40" rows="10" placeholder="Enter your Message" required></textarea>
+            <input type="submit" value="submit" class="send">
+        </form>
+    </div>
+
+</section>
+<script src="script.js"></script>
 </body>
 </html>
