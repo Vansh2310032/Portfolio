@@ -7,6 +7,7 @@
 
 body {
     min-height: 100vh;
+    background-color: black;
     background-image: url('pexels-jplenio-1103970.jpg');
     background-size: cover;
     background-position: center;
@@ -48,6 +49,7 @@ body {
     animation: slideRight 1s ease forwards;
 }
 .navbar a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:black;
     font-size:18px;
     text-decoration:none;
@@ -59,6 +61,7 @@ body {
 .navbar a:hover{
     color:rgb(24, 80, 165);
 }
+
 
 .home{
     position:relative;
@@ -73,6 +76,8 @@ body {
     max-width:600px;
 }
 .home-content h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
     font-size:32px;
     font-weight:700;
     opacity: 0;
@@ -81,10 +86,13 @@ body {
 }
 
 .home-content h3 span{
-    color:ghostwhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color:whitesmoke;
 }
 .home-content h1{
-    font-size:56px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:66px;
     font-weight:700;
     margin:-3px 0;
     opacity: 0;
@@ -92,7 +100,8 @@ body {
     animation-delay: 1s;
 }
 .home-content p{
-    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:25px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
@@ -102,7 +111,11 @@ body {
     display: flex;
     align-items: center; 
     margin-top: -400px; 
-    margin-left: 650px;
+    margin-left: 750px;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 1.5s;
+
 }
 .content-image {
     max-width: 500px; 
@@ -113,12 +126,12 @@ body {
     margin-top:20px;
     display: inline-block;
     padding: 12px 20px;
-    background: wheat;
+    background: black;
     border-radius:40px;
     border: 1px solid ;
-    border-color:black;
+    border-color:white;
     font-size:16px;
-    color:black;
+    color:white;
     letter-spacing:1px;
     text-decoration:none;
     font-weight:600;
@@ -133,7 +146,10 @@ body {
     0 0 25px wheat, 0 0 50px wheat,
     0 0 100px wheat,0 0 200px wheat
 }
-
+.link-cont{
+    display: flex;
+    gap: 30px;
+}
 .HTML{
     margin-top:200px;
     margin-right:-8px;
@@ -211,6 +227,7 @@ html {
 }
 
 .about h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px; 
     margin-bottom: 20px; 
     color: rgb(24, 80, 165); 
@@ -221,7 +238,8 @@ html {
 }
 
 .about p {
-    font-size: 16px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px; 
     line-height: 1.6; 
     margin-bottom: 15px; 
     color: white; 
@@ -273,6 +291,7 @@ html {
     }
 }
 .skills h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:50px;
     margin-bottom: 20px;
     color: white;
@@ -310,13 +329,16 @@ html {
 }
 
 .skills h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 10px 0; 
 }
 
 .skills p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #555; 
 }
 .qualifications h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:50px;
     margin-bottom: 20px;
     color:black;
@@ -354,11 +376,13 @@ html {
 }
 
 .qualifications h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     margin: 10px 0; 
 }
 
 .qualifications p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white; 
 }
 .contact{
@@ -379,6 +403,7 @@ html {
     color:black;
 }
 .contact-text p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:black;
     font-size: 20px;
     line-height: 30px;
@@ -406,11 +431,11 @@ html {
     display: inline-block;
     padding: 14px 28px;
     border: 1px solid ;
-    border-color:black;
-    background: wheat;
+    border-color:white;
+    background: black;
     border-radius: 40px;
     font-size: 16px;
-    color:black;
+    color:white;
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
@@ -458,7 +483,7 @@ html {
     border: 1px solid; 
     border-radius: 15px; 
     text-decoration: none; 
-    color: white; 
+    color: black; 
     transition: background-color 0.3s, border-color 0.3s; 
 }
 
